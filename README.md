@@ -2,6 +2,25 @@
 
 Part Two - Matt Bowytz University of Pittsburgh Spring 2016
 
+First and foremost, the changes must be significant and/or meaningful. Meaning that changing a few lines of code, or changing some variables will not be enough to count as a qualified submission
+
+JS or jQuery must be used in some way for the second part of the project
+If you do not know how to, or cannot think of a way to do this ask the TA or myself for advice
+
+This is still going to be a php project, so taking everything out of php and putting it in html files will not be acceptable
+You can incorporate an API, create form submissions without reloading the page, etc.
+
+If you, for some reason, did not have some kind of database finctionality n part 1, you must include that in part 2
+If you did not make db functionality for part 1, you must demonstrate the functionality to me on the day it is due
+
+The required amount of pages has not changed, however if you want to include more pages, that is fine with me, but don'g go overboard
+If you were lacking in actual content for part 1, take this opporunity to put meaningful site content into the project
+
+Since we've gone over more CSS and HTML and things like that, you may want to refresh your site viaually. Make things look a little better, make the layout easier on the eyes, etc.
+It shouldn't take you as long to do part 2, unless your first iteration was lacking
+
+Part One
+
 One page or multi page layout. Minimum of three sections/pages
 
 You may use a frontend framework, such as Bootstrap or Foundation. You may also use a template, all I ask is that
