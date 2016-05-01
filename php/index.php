@@ -86,7 +86,7 @@
     </div>
     <!-- /.container -->
     
-	<!-- Include Fotter -->
+	<!-- Include Footer -->
 	<?php include '../php/footer.php'; ?>
 	
     <!-- Script to Activate the Carousel -->

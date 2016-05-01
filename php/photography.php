@@ -46,23 +46,24 @@
 						<a href="#city">CITIES</a>
 						<a href="#food">FOOD</a>
 						<a href="#flowers">FLOWERS</a>
+						<a href="#animals">ANIMALS</a>
 					</div> 
 					
 					<!-- Apply use of arrays, variables and interweaving PHP to circle through photos to anchor on page -->		
 					<?php
-						$class = ['flowers', 'city', 'food']; // Array for css class identifications (lowercase)
-						$category = ["Flowers", "City", "Food"]; // Array for path (folders)
+						$class = ['flowers', 'city', 'food', 'animals']; // Array for css class identifications (lowercase)
+						$category = ["Flowers", "City", "Food", "Animals"]; // Array for path (folders)
 					?>	
 					<div class="sets">
 						<?php
 							$count = 1; // Position in loop (9 photos presented total)
 							$position = 0; // Position in $class and $category arrays
-							while($count < 10){ // Post 9 photos to site with anchor (EXAMPLE: img src = "../img/City/city2.img)
+							while($count < 21){ // Post 20 photos to site with anchor (EXAMPLE: img src = "../img/City/city2.img)
 						?>
 								<a href="#" class="<?php echo $class[$position];?>" ><img src="../img/<?php echo $category[$position]; ?>/<?php echo $class[$position] . $count; ?>.jpg"></a>
 							<?php
 								$position++; // Increase position in array
-								if($position == 3) // If the position is the over the length of the arrays
+								if($position == 4) // If the position is the over the length of the arrays
 									$position = 0; // Set to zero
 								$count++; // Increase count
 							} // End While Loop
